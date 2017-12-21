@@ -1,0 +1,1 @@
+?_write('Hello World'),nl,write('Welcome to class'),nl.

@@ -1,0 +1,23 @@
+/*Animal Database*/
+marsupial(X):-animal(X,mammal,pouch).
+insect(X):-animal(X,invertabrate,six-legged).
+arachnid(X):-animal(X,invertabrate,eight-legged).
+bird-of-pray(X):-animal(X,bird,raptor).
+cetacea(X):-animal(X,mammal,marine).
+chiroptera(X):-animal(X,mammal,flying).
+rodenta(X):-animal(X,mammal,rodent).
+animal(vampire_bat,mammal,flying).
+animal(praying_mantis,invertabrate,six-legged).
+animal(wolf_spider,invertabrate,eight-legged).
+animal(red-tailed_hawk,bird,raptor).
+animal(peregrine_falcon,bird,raptor).
+animal(echidna,mammal,pouch).
+animal(tarantula,invertabrate,eight-legged).
+animal(black_widow,invertabrate,eight-legged).
+animal(duck-billed_platypus,mammal,pouch).
+animal(beaver,mammal,rodent).
+animal(capybara,mammal,rodent).
+animal(orca,mammal,marine).
+animal(porpoise,mammal,marine).
+animal(narwal,mammal,marine).
+animal(fruit_bat,mammal,flying).
